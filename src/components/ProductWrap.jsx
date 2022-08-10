@@ -5,12 +5,14 @@ import { Link } from "react-router-dom";
 
 const Center = styled.div`
   width: 100%;
+  margin: 0 auto;
   ${({ theme }) => {
     if (theme === "dark") return `background-color:#2a303c`;
     else return `background-color:#fff;`;
   }}
 `;
 const Wrap = styled.div`
+  width: 100%;
   padding: 100px 0px;
   ${({ theme }) => {
     if (theme === "dark") return `background-color:#2a303c`;
@@ -44,7 +46,8 @@ const CategoryName = styled.div`
 
 const ProductZone = styled.div`
   margin: 0 auto;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   width: 100%;
   gap: 27px;
 
