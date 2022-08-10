@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  padding-top: 64px;
+  background-color: #2a303c;
+}
