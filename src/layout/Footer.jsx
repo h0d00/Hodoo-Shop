@@ -10,7 +10,7 @@ library.add(fab);
 
 const FooterWrap = styled.footer`
   width: 100%;
-  height: 288px;
+  height: 330px;
   display: grid;
   padding: 40px;
   grid-template-rows: repeat(4, 24px);

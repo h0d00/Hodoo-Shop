@@ -8,7 +8,6 @@ import { updateCount } from "../redux/productSlice";
 
 const Wrap = styled.div`
   width: 100%;
-  height: 800px;
   padding: 30px 8px;
   ${({ theme }) => {
     if (theme === "dark")
