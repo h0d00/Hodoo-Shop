@@ -171,6 +171,7 @@ const MiniFilter = styled.div`
   z-index: 100;
   background-color: #4c5564;
   overflow: scroll;
+  top: 110px;
   div {
     padding-left: 10px;
     line-height: 50px;
@@ -377,8 +378,8 @@ export default function Header() {
             onChange={(e) => {
               setSearchText(e.target.value);
             }}
-          />
-          <MiniFilter theme={theme}>{filtered}</MiniFilter>{" "}
+          ></PhoneInput>
+          <MiniFilter theme={theme}>{filtered}</MiniFilter>
         </>
       )}
       <Ang isActive={isActive}>
