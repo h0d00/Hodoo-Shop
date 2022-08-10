@@ -384,15 +384,30 @@ export default function Header() {
       )}
       <Ang isActive={isActive}>
         <ToggleMenu theme={theme} ref={Toggle} isActive={isActive}>
-          <Link to="/fashion">
+          <Link
+            to="/fashion"
+            onClick={() => {
+              setActive(!isActive);
+            }}
+          >
             <ToggleList theme={theme}>패션</ToggleList>
           </Link>
 
-          <Link to="/accessory">
+          <Link
+            to="/accessory"
+            onClick={() => {
+              setActive(!isActive);
+            }}
+          >
             <ToggleList theme={theme}>액세서리</ToggleList>
           </Link>
 
-          <Link to="/digital">
+          <Link
+            to="/digital"
+            onClick={() => {
+              setActive(!isActive);
+            }}
+          >
             <ToggleList theme={theme}>디지털</ToggleList>
           </Link>
         </ToggleMenu>
