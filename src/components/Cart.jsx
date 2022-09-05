@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Wrap = styled.div`
   width: 100%;
-  min-height: 530px;
+  min-height: 700px;
   padding: 100px 8px;
 
   ${({ theme }) => {
