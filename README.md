@@ -1,5 +1,5 @@
 <h1>🛍리액트로 쇼핑몰 구현🛍</h1>
-<https://hodoo-shop.vercel.app/>
+[Link](https://hodoo-shop.vercel.app/)
 
 <h2>⭐️주요 기능⭐️</h2>
 
