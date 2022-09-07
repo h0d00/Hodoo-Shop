@@ -12,7 +12,7 @@
 
 
 <h3>📝 반응형 웹 구현</h3>
-<img src = https://user-images.githubusercontent.com/110148272/188803204-f68c7783-932d-4026-8102-b8719baa3f18.gif/>
+<img src = https://user-images.githubusercontent.com/110148272/188803204-f68c7783-932d-4026-8102-b8719baa3f18.gif />
 
 
 
