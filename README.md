@@ -3,7 +3,7 @@
 <h2>⭐️주요 기능⭐️</h2>
 
 <h3>📝 jsonplaceholder의 dummy data를 Redux에 저장하여 상품목록 구현</h3>  
-![화면 기록 2022-09-07 오후 3 05 42](https://user-images.githubusercontent.com/110148272/188800978-552b2556-136f-4a61-9528-5f3e56e361b1.gif)
+<img src = https://user-images.githubusercontent.com/110148272/188800978-552b2556-136f-4a61-9528-5f3e56e361b1.gif />
 
 
 
