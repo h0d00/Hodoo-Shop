@@ -416,7 +416,7 @@ export default function Header() {
         <Nav>
           <HamburgerBtn />
           <Logo as="h1">
-            <Link to="/">React Shop</Link>
+            <Link to="/">HoDoo Shop</Link>
           </Logo>
           <Navigator>
             <Link to="/fashion">
